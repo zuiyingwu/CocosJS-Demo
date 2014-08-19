@@ -23,7 +23,7 @@ var WelcomeLayer = cc.Layer.extend({
 
 
         // delay goto home scene
-        this.scheduleOnce(this.gotoHomeScene, 1.0);
+        this.scheduleOnce(this.gotoHomeScene, 1.5);
         return true;
     },
     gotoHomeScene: function () {

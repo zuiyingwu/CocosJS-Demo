@@ -13,7 +13,10 @@ cc.game.onStart = function () {
     //load resources
     // cc.LoaderScene.preload(g_resources, function () { cc.director.runScene(new HelloWorldScene()); }, this);
     // 自定义不要上面的加载动画而直接显示主界面(因为主界面没太多东西)
-    cc.director.runScene(new WelcomeScene());
+    //cc.director.runScene(new WelcomeScene());
+
+    // tests
+    cc.director.runScene(new PkScene());
 
 };
 
